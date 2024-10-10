@@ -1,0 +1,56 @@
+.navbar{
+    display: flex;
+    background-color: rgb(3, 3, 53);
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+.logo{
+    width: 125px;
+    height: 30px;
+}
+.bars{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    gap: 15px;
+    list-style-type: none;
+    font-size: 20px;
+    font-family:sans-serif;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.login-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 3, 53);
+    border: 2px solid rgb(141, 208, 230);
+    width: 70px;
+    color: white;
+    width: 70px;
+    height: 40px;
+    font-weight: bold;
+}
+.signup-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 71px;
+    height: 41px;
+    background-color: rgb(231, 231, 231);
+    border: 1px solid black;
+    color: rgb(96, 148, 165);
+    
+}
+.underline{
+    height: 5px;
+    width: 100%;
+    background-color: aqua;
+}
